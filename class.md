@@ -44,35 +44,44 @@ class Person {
     private _height: number;
     private _weight: number;
 
-    public getName(): string {
+    public get name(): string {
         return this._name;
     }
-    public setName(name: string) {
-        this._name = name;
+
+    public set name(value: string) {
+        this._name = value;
     }
-    public getAge(): number {
+
+    public get age(): number {
         return this._age;
     }
-    public setAge(age: number) {
-        this._age = age;
+
+    public set age(value: number) {
+        this._age = value;
     }
-    public getAddress(): string {
+
+    public get address(): string {
         return this._address;
     }
-    public setAddress(Address: string) {
-        this._address = Address;
+
+    public set address(value: string) {
+        this._address = value;
     }
-    public getHeight(): number {
+
+    public get height(): number {
         return this._height;
     }
-    public setHeight(height: number) {
-        this._height = height;
+
+    public set height(value: number) {
+        this._height = value;
     }
-    public getWeight(): number {
+
+    public get weight(): number {
         return this._weight;
     }
-    public setWeight(weight: number) {
-        this._weight = weight;
+
+    public set weight(value: number) {
+        this._weight = value;
     }
 }
 ```
